@@ -1,0 +1,14 @@
+ax+b=0
+
+BEGIN
+INPUT a, b
+IF a = 0 THEN
+IF b = 0 THEN
+PRINT “Phuong trình vô s? nghi?m”
+ELSE
+PRINT “Phuong trình vô nghi?m”
+END IF
+ELSE
+PRINT “Phuong trình có nghi?m x = -b/a”
+END IF
+END
