@@ -1,0 +1,5 @@
+function yes() {
+
+    alert()
+
+}

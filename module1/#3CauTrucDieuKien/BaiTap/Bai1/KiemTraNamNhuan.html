@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tinh Nam Nhuan</title>
+</head>
+<body>
+<script>
+    var year = parseInt(prompt("Enter a Year"));
+    var isLeapYear = false;
+
+    var isDivisivleby4 = year % 4 == 0;
+    if (isDivisivleby4){
+        var isDivisibleBy100 = year % 100 == 0;
+         if(isDivisibleBy100) {
+             var isDivisibleBy400 = year % 400 == 0;
+             if (isDivisibleBy400) {
+                 isLeapYear = true;
+             }
+         } else   {
+             isLeapYear = true;
+                 }
+             }
+
+     if (isLeapYear) {
+         alert(year + "is a Leap year");
+     } else {
+         alert((year + "is NOT a leap year"))
+      }
+</script>
+
+
+</body>
+</html>
