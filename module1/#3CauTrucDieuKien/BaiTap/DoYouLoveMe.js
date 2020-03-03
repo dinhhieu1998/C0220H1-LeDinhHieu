@@ -1,5 +1,3 @@
 function yes() {
-
-    alert()
-
+   let = document.getElementById
 }
