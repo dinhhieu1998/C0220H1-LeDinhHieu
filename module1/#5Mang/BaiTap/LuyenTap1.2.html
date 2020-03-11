@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    var  num = [53, 4558 , 4120 , -2165 , 252228 , 4500 , 3454, -4354354];
+
+    var maxInNum = Math.max.apply(Math, num);
+    var minInNum = Math.min.apply(Math, num);
+
+    document.write("Giá trị lớn nhất là " +maxInNum+ "<br/>");
+    document.write("Giá trị nhỏ nhất là " +minInNum+ "<br/>");
+    document.write(num.indexOf(maxInNum));
+
+</script>
+</body>
+</html>

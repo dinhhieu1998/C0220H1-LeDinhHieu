@@ -5,14 +5,32 @@
     <title>Tu Dien</title>
 </head>
 <body>
-<input type="text" id="eng">
-<br> <br>
-<button onclick="sea">Search</button>
-<br>
-<br>
-<input type="text" id="viet">
+ <script>
+     let str = prompt("Nhap tu can tim: ");
+     let eng = ["Hello", "Teacher", "Student", "Good Morning", "Good Afternoon", "Good Evening"];
+     let vie = ["Xin Chào", "Giáo Viên","Học Sinh", "Chào Buổi Sáng", "Chào Buổi Chiều", "Chào buổi tối"];
 
+     for ( let i = 0; i<eng.length; i++) {
+         if (str === eng[i]) {
+             alert(vie[i]);
+             break;
+         } else {
+             // alert('Khong co trong tu dien');
+             // break;
+             if (i === eng.length - 1) {
+                 alert('Khong có trong từ điển');
+                 break;
+                 // if (i !== eng) {
+                 //     alert('Khong có trong tu dien');
+                 //     break;
+             }
+         }
+     }
+
+
+
+ </script>
 
 
 </body>
-</html>
+</html>,
