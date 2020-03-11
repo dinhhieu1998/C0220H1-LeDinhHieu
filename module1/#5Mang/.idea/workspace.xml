@@ -24,7 +24,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../#6Ham" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -55,6 +55,8 @@
       <workItem from="1583811627522" duration="1192000" />
       <workItem from="1583939904570" duration="5160000" />
       <workItem from="1583946555294" duration="277000" />
+      <workItem from="1583946859830" duration="121000" />
+      <workItem from="1583950032403" duration="924000" />
     </task>
     <servers />
   </component>
