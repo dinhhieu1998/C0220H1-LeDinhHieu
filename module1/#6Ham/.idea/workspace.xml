@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e7d14a3-dcd2-42a5-9ee5-0561579c1a7a" name="Default Changelist" comment="" />
+    <list default="true" id="f07d588b-8019-4bb3-963b-14cac7b15595" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,13 +10,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
-        <option value="HTML4 File" />
         <option value="HTML File" />
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="1YjtPiGOd2Zb8QV2O11cYeaWGB1" />
+  <component name="ProjectId" id="1Yur26npMyVbR0cOqOXV7boe9Ba" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -26,17 +24,18 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../C0220H1-DoQuocKhanh-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../C0220H1-DauTuanPhuong-master" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\PHONGVU\Desktop\#5Mang\BaiTap" />
+      <recent name="C:\Users\PHONGVU\Desktop\#6Ham\ThucHanh" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -44,23 +43,18 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4e7d14a3-dcd2-42a5-9ee5-0561579c1a7a" name="Default Changelist" comment="" />
-      <created>1583467808153</created>
+      <changelist id="f07d588b-8019-4bb3-963b-14cac7b15595" name="Default Changelist" comment="" />
+      <created>1583803109392</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1583467808153</updated>
-      <workItem from="1583467809354" duration="1057000" />
-      <workItem from="1583548026340" duration="7815000" />
-      <workItem from="1583643631873" duration="1566000" />
-      <workItem from="1583669976066" duration="642000" />
-      <workItem from="1583766563355" duration="6430000" />
-      <workItem from="1583811627522" duration="1192000" />
-      <workItem from="1583939904570" duration="5160000" />
-      <workItem from="1583946555294" duration="277000" />
-      <workItem from="1583946859830" duration="121000" />
-      <workItem from="1583950032403" duration="1585000" />
-      <workItem from="1583980318437" duration="523000" />
-      <workItem from="1584029376289" duration="5890000" />
+      <updated>1583803109392</updated>
+      <workItem from="1583803110683" duration="630000" />
+      <workItem from="1583892602594" duration="939000" />
+      <workItem from="1583939835821" duration="67000" />
+      <workItem from="1583946871877" duration="3261000" />
+      <workItem from="1583980224470" duration="618000" />
+      <workItem from="1584029230364" duration="144000" />
+      <workItem from="1584036409994" duration="5134000" />
     </task>
     <servers />
   </component>
@@ -68,13 +62,17 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583549179973">
+    <state x="1220" y="298" key="FileChooserDialogImpl" timestamp="1584037406811">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="414" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1583549179973" />
-    <state x="1220" y="298" key="FileChooserDialogImpl" timestamp="1584029460425">
+    <state x="1220" y="298" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1584037406811" />
+    <state x="926" y="185" key="SettingsEditor" timestamp="1583948709324">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1220" y="298" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1584029460425" />
+    <state x="926" y="185" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1583948709324" />
+    <state x="1116" y="397" width="666" height="285" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1583948574552">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1116" y="397" width="666" height="285" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1583948574552" />
   </component>
 </project>
