@@ -10,6 +10,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -24,14 +25,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../C0220H1-DauTuanPhuong-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../#7HuongDoiTuong" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -54,7 +55,10 @@
       <workItem from="1583946871877" duration="3261000" />
       <workItem from="1583980224470" duration="618000" />
       <workItem from="1584029230364" duration="144000" />
-      <workItem from="1584036409994" duration="5134000" />
+      <workItem from="1584036409994" duration="5733000" />
+      <workItem from="1584063404724" duration="3921000" />
+      <workItem from="1584372428085" duration="6194000" />
+      <workItem from="1584379032888" duration="159000" />
     </task>
     <servers />
   </component>
@@ -62,14 +66,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1220" y="298" key="FileChooserDialogImpl" timestamp="1584037406811">
+    <state x="1220" y="298" key="FileChooserDialogImpl" timestamp="1584379186842">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1220" y="298" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1584037406811" />
-    <state x="926" y="185" key="SettingsEditor" timestamp="1583948709324">
+    <state x="1220" y="298" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1584379186842" />
+    <state x="922" y="185" key="SettingsEditor" timestamp="1584068707856">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="926" y="185" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1583948709324" />
+    <state x="922" y="185" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1584068707856" />
     <state x="1116" y="397" width="666" height="285" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1583948574552">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

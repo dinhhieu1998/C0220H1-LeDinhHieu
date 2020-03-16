@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function number(a) {
+        if (a == parseInt(a)) {
+            if (a * 1 > 0) {
+                return true;
+            } else {
+                return false
+            }
+        }
+        return false;
+    }
+    let a = prompt("Nhap so bat ki");
+    if (number(a)){
+        alert( a + " là so nguyen to")
+    }
+    else {
+        alert( a + " khong phai la so nguyen to")
+    }
+
+
+</script>
+</body>
+</html>

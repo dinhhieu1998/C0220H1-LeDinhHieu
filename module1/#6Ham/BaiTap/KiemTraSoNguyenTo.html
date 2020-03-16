@@ -6,7 +6,7 @@
 </head>
 <body>
 <script>
-    let num = prompt("Nhap So Bat Ki: ");
+    let num = prompt('Kiem Tra So Nguyen To');
     if (isPrime(num)) {
         alert(num + ' la so nguyen to');
     } else {
@@ -14,37 +14,14 @@
     }
 
     function isPrime(num) {
-        var flag = true;
-        if (num < 2){
-            flag = false;
-        }
-        else if (num == 2){
-            flag = true;
-        }
-        else if (num % 2 == 0){
-            flag = false;
-        }
-        else{
-            for (var i = 3; i < n-1; i+=2)
-            {
-                if (num % i == 0){
-                    flag = false;
-                    break;
-                }
+        let check = true;
+        for (let i = 2; i <= num / 2; i++) {
+            if (num % i === 0) {
+                check = false;
             }
         }
-
+        return check;
     }
-    //     for (let i = 2; i <= num/2; i++) {
-    //         if (num % i === 0) {
-    //             if (num < 2) {
-    //             check = false;
-    //         }
-    //     }
-    //     return check;
-    // }
-    // }
-
 </script>
 </body>
 </html>

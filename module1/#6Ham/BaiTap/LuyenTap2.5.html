@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function checkMin(a, b, c) {
+        if (a > b) {
+            if (b < c) {
+                return b;
+            } else {
+                return c;
+            }
+        } else {
+            if (a < c) {
+                return a
+            }
+            else{
+                return c
+            }
+        }
+    }
+
+    let a = prompt("Nhap a");
+    let b = prompt("Nhap b");
+    let c = prompt("Nhap c");
+    alert("Gia tri nhỏ nhất là " + checkMin(a, b, c));
+
+</script>
+</body>
+</html>
