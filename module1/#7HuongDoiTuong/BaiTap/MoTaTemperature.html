@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let Tem = function (C) {
+        this.C = C;
+        this.getF = function () {
+            return this.C * 33.8;
+        };
+        this.getK = function () {
+            return this.C * 274.15;
+        };
+    };
+
+    let tem = new Tem(10);
+    document.writeln("F = " + tem.getF() + "<br>" + "Kenvin = " + tem.getK());
+</script>
+</body>
+</html>
