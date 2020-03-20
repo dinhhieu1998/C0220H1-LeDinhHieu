@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yeu Cau 1</title>
+</head>
+<body>
+<script>
+    let name = prompt("Nhap Ten: ");
+    let cmnd = prompt("Nhap CMND: ");
+    let date = prompt("Nhap Ngay.Thang.Nam Sinh: ");
+    let sale = prompt("Nhap Sale: ");
+    let people = prompt("So nguoi: ");
+    let rentDay = prompt("So ngay muon thue; ");
+    let service = prompt("Loai dich vu muon thue (Villa, House, Room): ");
+    let sRom = prompt("Loai phong muon thue(Vip, Business, Normal): ");
+    let price;
+
+    if (service === 'Villa') {
+        price = 500;
+    } else if (service === 'House') {
+        price = 300;
+    } else if (service === 'Room') {
+        price = 100;
+    };
+    let total = price * rentDay * (1 - sale / 100);
+    document.writeln("Phiếu biên nhận của Quý Khách" +
+        "<br>" + "Tên: " + name +
+        "<br>" + "So CMND: " + cmnd +
+        "<br>" + "Ngày tháng năm sinh: " + date +
+        "<br>" + "Sale: "+ sale+
+        "<br>" + "Số người muốn thuê: " + people +
+        "<br>" + "Số ngày thuê: " + rentDay +
+        "<br>" + "Loại dịch vụ muốn thuê: " + service +
+        "<br>" + " Sử dụng phòng: " + sRom +
+        "<br>" + "Số tiền phải thanh toán: " + total
+    )
+</script>
+
+"<br>"
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let nameClass = /^([ACP][0-9]{4}[GHIKLM])+$/;
+    function idclass(name) {
+        if (!nameClass.test(name)){
+            console.log("Account is not  idclass");
+        }else {
+            console.log("Acount is idclass");
+        }
+    }
+    idclass("C0318G")
+    idclass("M0318G")
+    idclass("P0323A")
+
+</script>
+</body>
+</html>

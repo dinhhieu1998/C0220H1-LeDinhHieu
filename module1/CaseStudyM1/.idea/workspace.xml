@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d602ef0e-a262-42e0-8a48-d90e98878e0d" name="Default Changelist" comment="" />
+    <list default="true" id="5af29f46-8d7f-4f84-87cf-906781e5e40f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,12 +10,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="1ZJ7ToyX8Jj0vp1StXmN4uVYp78" />
+  <component name="ProjectId" id="1ZGS42F3iRDRRvlzJNNcImo40ND" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -25,7 +24,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../#8String" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -38,15 +37,13 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d602ef0e-a262-42e0-8a48-d90e98878e0d" name="Default Changelist" comment="" />
-      <created>1584545353916</created>
+      <changelist id="5af29f46-8d7f-4f84-87cf-906781e5e40f" name="Default Changelist" comment="" />
+      <created>1584463742858</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1584545353916</updated>
-      <workItem from="1584545355824" duration="2417000" />
-      <workItem from="1584638183105" duration="985000" />
-      <workItem from="1584639179325" duration="1049000" />
-      <workItem from="1584667952221" duration="649000" />
+      <updated>1584463742858</updated>
+      <workItem from="1584463744182" duration="1171000" />
+      <workItem from="1584630188451" duration="7986000" />
     </task>
     <servers />
   </component>
@@ -54,9 +51,13 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1220" y="298" key="FileChooserDialogImpl" timestamp="1584639166680">
+    <state x="1199" y="330" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584464505728">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1220" y="298" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1584639166680" />
+    <state x="1199" y="330" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1584464505728" />
+    <state x="1220" y="295" key="FileChooserDialogImpl" timestamp="1584638180067">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1220" y="295" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1584638180067" />
   </component>
 </project>

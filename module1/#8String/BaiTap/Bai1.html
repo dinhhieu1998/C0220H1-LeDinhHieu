@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let filter = /^[A-Za-z0-9]+[A-Za-z0-9]*@[A-Za-z0-9]+(\.[A-Za-z0-9]+)$/;
+
+    function checkEmai(email) {
+        if (!filter.test(email)) {
+            console.log('Email is invalid!');
+        } else {
+            console.log('Email is valid');
+        }
+    }
+
+    checkEmai('a@gmail.com');
+    checkEmai('ab@yahoo.com');
+    checkEmai('abc@hotmail.com');
+    checkEmai('@gmail.com');
+    checkEmai('ab@gmail.');
+    checkEmai('@#abc@gmail.com');
+</script>
+</body>
+</html>

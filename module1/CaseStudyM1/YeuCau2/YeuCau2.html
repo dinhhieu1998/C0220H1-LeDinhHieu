@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let nameCustomer = "LÊ ĐÌNH HIẾU";
+    let emailCustomer = "dinhhieu.roca@gmail.com";
+    let cmndCustomer = "194616***";
+    let dateCustomer = " 01/05/1998";
+    let addressCustomer = "Quảng Bình";
+    let typeCustomer = "Diamond";
+    let discount = "25%";
+    let numberOfAccompanying = 2;
+    let typeRoom = "Vip";
+    let rentDay = 5;
+    let typeService = "Villa";
+    let moneyPerDay = 0;
+
+    let select = prompt(
+        "1: Show Information Customer" + "\n2: Edit Information Customer" + "\n3: Show the mount to be paid after discount");
+    switch (select) {
+        case "1":
+            alert("Name Customer: " + nameCustomer +
+                "\nEmail Customer: " + emailCustomer +
+                "\nCMND Customer: " + cmndCustomer +
+                "\nDate Customer: " + dateCustomer +
+                "\nAddress Customer: " + addressCustomer +
+                "\nType Customer: " + typeCustomer +
+                "\nDiscount: " + discount +
+                "\nNumber Of Accompaying: " + numberOfAccompanying +
+                "\nTypeRoom: " + typeRoom +
+                "\nRent Day: " + rentDay +
+                "\nType Service: " + typeService +
+                "\nMoney Per Day: " + moneyPerDay);
+            break;
+        case "2":
+            let selectEdit = prompt("What do you need to fix?" +
+            "\n1.Name Customer :" + nameCustomer +
+            "\n2.Email Customer :" + emailCustomer +
+            "\n3.CMND Card :" + cmndCustomer +
+            "\n4.Date Customer :" + dateCustomer +
+            "\n5.Dddress Customer :" + addressCustomer +
+            "\n6.Type Customer :" + typeCustomer +
+            "\n7.Discount :" + discount +
+            "\n8.Number Of Accompanying :" + numberOfAccompanying +
+            "\n9.Type Room :" + typeRoom +
+            "\n10.Rent Day :" + rentDay +
+            "\n11.Type Service :" + typeService);
+            switch (selectEdit) {
+                case '1':
+                    nameCustomer = prompt('Enter Name You Want Edit :');
+                    break;
+                case '2':
+                    emailCustomer = prompt('Enter Email You Want Edit :');
+                    break;
+                case '3':
+                    cmndCustomer = prompt('Enter CMND You Want Edit :');
+                    break;
+                case '4':
+                    dateCustomer = prompt('Enter Date You Want Edit :');
+                    break;
+                case '5':
+                    addressCustomer = prompt('Enter Address You Want Edit :');
+                    break;
+                case '6':
+                    typeCustomer = prompt('Enter Type Customer You Want Edit :');
+                    break;
+                case '7':
+                    discount = prompt('Enter Discount You Want Edit :');
+                    break;
+                case '8':
+                    numberOfAccompanying = prompt('Enter Number Of Accompanying You Want Edit :');
+                    break;
+                case '9':
+                    typeRoom = prompt('Enter Type Room You Want Edit :');
+                    break;
+                case '10':
+                    rentDay = prompt('Enter Rent Day You Want Edit :');
+                    break;
+                case '11':
+                    typeService = prompt('Enter Type Service You Want Edit :');
+                    break;
+                default :
+                    alert('Failled');
+            }
+            alert("Name Customer: " + nameCustomer +
+                "\nEmail Customer: " + emailCustomer +
+                "\nCMND Customer: " + cmndCustomer +
+                "\nDate Customer: " + dateCustomer +
+                "\nAddress Customer: " + addressCustomer +
+                "\nType Customer: " + typeCustomer +
+                "\nDiscount: " + discount +
+                "\nNumber Of Accompaying: " + numberOfAccompanying +
+                "\nTypeRoom: " + typeRoom +
+                "\nRent Day: " + rentDay +
+                "\nType Service: " + typeService +
+                "\nMoney Per Day: " + moneyPerDay);
+            break;
+        case "3":
+            let price;
+            if (typeService === "Villa"){
+                price = 500;
+            } else if (typeService === "House"){
+                price = 300;
+            } else  if (typeService === "Room"){
+                price = 1000;
+            }
+            let sale = 0;
+            if (addressCustomer === "Đà Nẵng"){
+                sale += 20;
+            } else if (addressCustomer === "Hội An"){
+                sale += 10;
+            } else if (addressCustomer === "Quảng Bình"){
+                sale += 5;
+            }
+            if (rentDay > 7) {
+                sale += 30;
+            } else if (rentDay > 4) {
+                sale += 20;
+            } else if (rentDay > 1) {
+                sale += 10;
+            } else {
+                sale += 0;
+            }
+            if (typeCustomer === 'Diamond') {
+                sale += 15;
+            } else if (typeCustomer === 'Platium') {
+                sale += 10;
+            } else if (typeCustomer === 'Gold') {
+                sale += 5;
+            } else if (typeCustomer === 'Silver') {
+                sale += 2;
+            } else {
+                sale += 0;
+            }
+            moneyPerDay = price * rentDay - sale;
+            alert("Total Pays After DisCount Condition: " + moneyPerDay);
+            break;
+        default:
+            alert("Failled");
+    }
+</script>
+</body>
+</html>

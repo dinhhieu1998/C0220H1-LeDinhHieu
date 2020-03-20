@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-<canvas id="myRectangle" style="border: 2px solid #ff0000"></canvas>
+<canvas id="myRectangle" style="border:3px solid #ff0000"; width="300" height="300"></canvas>
 
 <script>
 
@@ -18,24 +18,24 @@
         };
 
         this.getArea = function () {
-            return (this.length * this.width);
+            return (this.length*this.width);
         };
 
         this.getCreate = function () {
             let ctx = document.getElementById("myRectangle").getContext("2d");
             ctx.canvas.width = this.width;
-            ctx.canvas.height = this.height;
+            ctx.canvas.height = this.length;
         };
     };
 
 
-    let rectangle = new Rectangle(100, 200);
+    let rectangle = new Rectangle(400, 600);
     rectangle.getCreate();
-    rectangle.length = 400;
-    rectangle.width = 200;
-    let Perimeter =rectangle.getPerimeter();
-    let Area=rectangle.getArea();
-    alert("Perimeter = " + Perimeter + "Area= " + Area);
+    rectangle.length = 300;
+    rectangle.width = 100;
+    let Perimeter = rectangle.getPerimeter();
+    let Area= rectangle.getArea();
+    alert("Perimeter = " + Perimeter + "\nArea = " + Area);
 </script>
 </body>
 </html>
