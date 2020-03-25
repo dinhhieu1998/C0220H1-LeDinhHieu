@@ -7,44 +7,49 @@
 <body>
 
 <script>
+    //input name Customer
     let nameCustomer = prompt('Enter name Customer');
 
+    //check email
     let emailCustomer = prompt('Enter email Customer');
     let flagEmailCustomer = false;
     let i = 0;
     while (flagEmailCustomer === false) {
         let filter = /^([a-zA-Z0-9_.-])+@(([a-zA-Z0-9-])+.)+[.]([a-zA-Z0-9]{2,4})+$/;
         if (!filter.test(emailCustomer)) {
-            alert('Email is invalid!Please Try Again!');
+            alert('Email is invalid! Please Try Again!');
             emailCustomer = prompt('Enter email Customer');
         } else {
             flagEmailCustomer = true;
         }
     }
 
-    let cmnd = prompt('Enter cmnd');
-    let flagcmnd = false;
-    while (flagcmnd === false) {
+    //check idcard
+    let idCard = prompt('Enter Id Card');
+    let flagidCard = false;
+    while (flagidCard === false) {
         let filter = /^([0-9])+$/;
-        if (!filter.test(cmnd) || cmnd.length !== 9) {
+        if (!filter.test(idCard) || idCard.length !== 9) {
             alert('idCard is invalid!Please Try Again!');
-            cmnd = prompt('Enter Id Card');
+            idCard = prompt('Enter Id Card');
         } else {
-            flagcmnd = true;
+            flagidCard = true;
         }
     }
 
-    let DateCustomer = prompt('Enter Date (DD/MM/YYYY)');
-    let flagDate = false;
-    while (flagDate === false) {
+    //check birthday
+    let birthdayCustomer = prompt('Enter Birday (DD/MM/YYYY)');
+    let flagBirday = false;
+    while (flagBirday === false) {
         let filter = /^[\d]{2}\/[\d]{2}\/[\d]{4}$/;
-        if (!filter.test(dateCustomer)) {
-            alert('Date is invalid!Please Try Again!');
-            dateCustomer = prompt('Enter date (DD/MM/YYYY)');
+        if (!filter.test(birthdayCustomer)) {
+            alert('Birthday is invalid! Please Try Again!');
+            birthdayCustomer = prompt('Enter Birday (DD/MM/YYYY)');
         } else {
-            flagDate = true;
+            flagBirday = true;
         }
     }
+    //input addressCustomer+typeCustomer
     let addressCustomer = prompt('Enter Address Customer');
     let typeCustomer = prompt('type Customer');
 
@@ -75,6 +80,7 @@
     }
 
 
+    //xóa khoảng trắng thừa
     function check_delete_UpLower(str) {
         str = str.toLowerCase();
         var result = [];
@@ -92,7 +98,6 @@
                 }
             }
         }
-
         return result.join('');
     }
 
