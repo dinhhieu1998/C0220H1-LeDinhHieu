@@ -9,34 +9,34 @@
     let arrListCustomers = [];
 
     function displayMainMenu() {
-        let num = prompt("1.Add New Customer" +
-            "\n2.Display Information Customer" +
-            "\n3.Edit Information Customer" +
-            "\n4.Delete Customer" +
-            "\n5.Exit");
+        let num = prompt('1. Add New Customer.' +
+            '\n2. Display Information Customer.' +
+            '\n3. Edit Information Customer.' +
+            '\n4. Delete Customer.' +
+            '\n5. Exit');
         return num;
     }
 
     function addNewCustomer() {
         let arrCustomers = [];
-        arrCustomers.push(prompt("Enter name Customer"));
-        arrCustomers.push(prompt("Enter Cmnd"));
-        arrCustomers.push(prompt("Enter Email Customer"));
-        arrCustomers.push(prompt("Enter Address Customer"));
-        arrCustomers.push(prompt("Enter Birthday (DD/MM/YYYY"));
-        arrCustomers.push(prompt("Enter number of accomanying"));
-        arrCustomers.push(prompt("Enter RentDay"));
-        arrCustomers.push(prompt("Enter type service (Villa, House, Room)"));
-        arrCustomers.push(prompt("Enter type room (Vip, Business, Normal)"));
+        arrCustomers.push(prompt('Enter name Customer'));
+        arrCustomers.push(prompt('Enter Id Card'));
+        arrCustomers.push(prompt('Enter Email Customer'));
+        arrCustomers.push(prompt('Enter Address Customer'));
+        arrCustomers.push(prompt('Enter Birday (DD/MM/YYYY)'));
+        arrCustomers.push(prompt('Enter number of accompanying :'));
+        arrCustomers.push(prompt('Enter rent day'));
+        arrCustomers.push(prompt('Enter type service (Villa, House, Room)'));
+        arrCustomers.push(prompt('Enter type room (Vip, Business,  Normal)'));
         arrListCustomers.push(arrCustomers);
     }
 
     function displayCustomers() {
-        let displayAllCustomers = "";
+        let displayAllCustomers = '';
         for (let i = 0; i < arrListCustomers.length; i++) {
-            displayAllCustomers += (i + 1) + ".Name: " + arrListCustomers[i][0] + " - IdCard: " + arrListCustomers[i][1] + "\n";
+            displayAllCustomers += (i + 1) + '.Name: ' + arrListCustomers[i][0] + ' IdCard: ' + arrListCustomers[i][1] + '\n';
         }
-        displayAllCustomers += (arrListCustomers.length + 1) + ". Back to menu";
+        displayAllCustomers += (arrListCustomers.length + 1) + '. Back to menu';
         let num = prompt(displayAllCustomers);
         if (num != (arrListCustomers.length + 1)) {
             alert('1.nameCustomer: ' + arrListCustomers[num - 1][0] +
@@ -50,17 +50,16 @@
                 '\n9.Type Room: ' + arrListCustomers[num - 1][8]
             )
         }
-
     }
 
     function editCustomer() {
-        let displayAllCustomer = "";
+        let displayAllCustomers = '';
         for (let i = 0; i < arrListCustomers.length; i++) {
-            displayAllCustomer += (i + 1) + ".Name: " + arrListCustomers[i][0] + " - IdCard: " + arrListCustomers[i][1] + "\n";
+            displayAllCustomers += (i + 1) + '.Name: ' + arrListCustomers[i][0] + ' IdCard: ' + arrListCustomers[i][1] + '\n';
         }
-        displayAllCustomer += (arrListCustomers.length + 1) + ".Back to menu";
-        let num = prompt(displayAllCustomer);
-        let edit = "";
+        displayAllCustomers += (arrListCustomers.length + 1) + '. Back to menu';
+        let num = prompt(displayAllCustomers);
+        let edit = '';
         if (num == arrListCustomers.length + 1) {
             return;
         } else {
@@ -112,18 +111,18 @@
     }
 
     function deleteCustomer() {
-        let displayAllCustomer = "";
+        let displayAllCustomers = '';
         for (let i = 0; i < arrListCustomers.length; i++) {
-            displayAllCustomer += (i + 1) + ". Name: " + arrListCustomers[i][0] + " - IdCard: " + arrListCustomers[i][1] + "\n";
+            displayAllCustomers += (i + 1) + '.Name: ' + arrListCustomers[i][0] + ' IdCard: ' + arrListCustomers[i][1] + '\n';
         }
-        displayAllCustomer += (arrListCustomers.length + 1) + " .Back to menu";
-        let deleteN = prompt(displayAllCustomer);
+        displayAllCustomers += (arrListCustomers.length + 1) + '. Back to menu';
+        let deleteN = prompt(displayAllCustomers);
         if (deleteN == arrListCustomers.length + 1) {
             return;
         } else {
-            let check = prompt(" Are you sure delete Customer" + "Name: " + arrListCustomers[deleteN - 1][0] +
-                " IdCard: " + arrListCustomers[deleteN - 1][1] +
-                "\n1. Yes" + "\n2. No");
+            let check = prompt('Are you sure delete Customer ' + 'Name: ' + arrListCustomers[deleteN - 1][0] +
+                ' IdCard: ' + arrListCustomers[deleteN - 1][1] +
+                '\n1. Yes' + '\n2. No');
             if (check == 1) {
                 for (let i = deleteN; i < arrListCustomers.length; i++) {
                     arrListCustomers[i] = arrListCustomers[i + 1];
@@ -132,7 +131,7 @@
             }
         }
     }
-
+    //run
     let number;
     do {
         number = displayMainMenu();

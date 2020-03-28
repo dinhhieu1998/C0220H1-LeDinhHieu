@@ -6,22 +6,40 @@
 </head>
 <body>
 <script>
-    let filter = /^[A-Za-z0-9]+[A-Za-z0-9]*@[A-Za-z0-9]+(\.[A-Za-z0-9]+)$/;
 
-    function checkEmai(email) {
+    // let filter = /^[A-Za-z0-9]+[A-Za-z0-9]*@[A-Za-z0-9]+(\.[A-Za-z0-9]+)$/;
+    //
+    // function checkEmai(email) {
+    //     if (!filter.test(email)) {
+    //         console.log('Email is invalid!');
+    //     } else {
+    //         console.log('Email is valid');
+    //     }
+    // }
+    //
+    // checkEmai('a@gmail.com');
+    // checkEmai('ab@yahoo.com');
+    // checkEmai('abc@hotmail.com');
+    // checkEmai('@gmail.com');
+    // checkEmai('ab@gmail.');
+    // checkEmai('@#abc@gmail.com');
+
+
+    //check email
+    let email = prompt('Nhap Email');
+    let flagEmail = false;
+    let i = 0;
+    while (flagEmail === false) {
+        let filter = /^([a-zA-Z0-9_.-])+@(([a-zA-Z0-9-])+.)+[.]([a-zA-Z0-9]{2,4})+$/;
         if (!filter.test(email)) {
-            console.log('Email is invalid!');
+            alert('Sai cú pháp! Vui lòng nhập lại!');
+            email = prompt('Nhap Email');
         } else {
-            console.log('Email is valid');
+            alert("Email đúng cú pháp: " + " " + email);
+            break;
         }
     }
 
-    checkEmai('a@gmail.com');
-    checkEmai('ab@yahoo.com');
-    checkEmai('abc@hotmail.com');
-    checkEmai('@gmail.com');
-    checkEmai('ab@gmail.');
-    checkEmai('@#abc@gmail.com');
 </script>
 </body>
 </html>

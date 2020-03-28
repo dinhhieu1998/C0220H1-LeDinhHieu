@@ -30,7 +30,7 @@
     while (flagidCard === false) {
         let filter = /^([0-9])+$/;
         if (!filter.test(idCard) || idCard.length !== 9) {
-            alert('idCard is invalid!Please Try Again!');
+            alert('idCard is invalid! Please Try Again!');
             idCard = prompt('Enter Id Card');
         } else {
             flagidCard = true;

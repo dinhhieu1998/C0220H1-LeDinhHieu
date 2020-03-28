@@ -6,7 +6,8 @@
 </head>
 <body>
 <script>
-    let filter=/^[_a-z0-9]{6,}$/;
+    let filter = /^[_a-z0-9]{6,}$/;
+
     function invalid(account) {
         if (!filter.test(account)) {
             console.log('Account is invalid!');
@@ -24,6 +25,7 @@
     invalid('12345');
     invalid('1234_');
     invalid('abcde');
+
 
 
 </script>
