@@ -35,20 +35,22 @@
                 "\nRent Day: " + rentDay +
                 "\nType Service: " + typeService +
                 "\nMoney Per Day: " + moneyPerDay);
-            break;
+
+            select = prompt(
+                "1: Show Information Customer" + "\n2: Edit Information Customer" + "\n3: Show the mount to be paid after discount");
         case "2":
             let selectEdit = prompt("What do you need to fix?" +
-            "\n1.Name Customer :" + nameCustomer +
-            "\n2.Email Customer :" + emailCustomer +
-            "\n3.CMND Card :" + cmndCustomer +
-            "\n4.Date Customer :" + dateCustomer +
-            "\n5.Dddress Customer :" + addressCustomer +
-            "\n6.Type Customer :" + typeCustomer +
-            "\n7.Discount :" + discount +
-            "\n8.Number Of Accompanying :" + numberOfAccompanying +
-            "\n9.Type Room :" + typeRoom +
-            "\n10.Rent Day :" + rentDay +
-            "\n11.Type Service :" + typeService);
+                "\n1.Name Customer :" + nameCustomer +
+                "\n2.Email Customer :" + emailCustomer +
+                "\n3.CMND Card :" + cmndCustomer +
+                "\n4.Date Customer :" + dateCustomer +
+                "\n5.Dddress Customer :" + addressCustomer +
+                "\n6.Type Customer :" + typeCustomer +
+                "\n7.Discount :" + discount +
+                "\n8.Number Of Accompanying :" + numberOfAccompanying +
+                "\n9.Type Room :" + typeRoom +
+                "\n10.Rent Day :" + rentDay +
+                "\n11.Type Service :" + typeService);
             switch (selectEdit) {
                 case '1':
                     nameCustomer = prompt('Enter Name You Want Edit :');
@@ -98,22 +100,24 @@
                 "\nRent Day: " + rentDay +
                 "\nType Service: " + typeService +
                 "\nMoney Per Day: " + moneyPerDay);
-            break;
+            // break;
+            select = prompt(
+                "1: Show Information Customer" + "\n2: Edit Information Customer" + "\n3: Show the mount to be paid after discount");
         case "3":
             let price;
-            if (typeService === "Villa"){
+            if (typeService === "Villa") {
                 price = 500;
-            } else if (typeService === "House"){
+            } else if (typeService === "House") {
                 price = 300;
-            } else  if (typeService === "Room"){
+            } else if (typeService === "Room") {
                 price = 1000;
             }
             let sale = 0;
-            if (addressCustomer === "Đà Nẵng"){
+            if (addressCustomer === "Đà Nẵng") {
                 sale += 20;
-            } else if (addressCustomer === "Hội An"){
+            } else if (addressCustomer === "Hội An") {
                 sale += 10;
-            } else if (addressCustomer === "Quảng Bình"){
+            } else if (addressCustomer === "Quảng Bình") {
                 sale += 5;
             }
             if (rentDay > 7) {
@@ -137,10 +141,13 @@
                 sale += 0;
             }
             moneyPerDay = price * rentDay - sale;
-            alert("Total Pays After DisCount Condition: " + moneyPerDay);
-            break;
+            alert("Total Pays After DisCount Condition: " + moneyPerDay+".000 vnđ");
+        // break;
         default:
-            alert("Failled");
+            select = prompt(
+                "1: Show Information Customer" + "\n2: Edit Information Customer" + "\n3: Show the mount to be paid after discount");
+            // alert("Failled");
+            break;
     }
 </script>
 </body>

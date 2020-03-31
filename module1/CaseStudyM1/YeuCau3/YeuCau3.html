@@ -41,6 +41,7 @@
     let birthdayCustomer = prompt('Enter Birday (DD/MM/YYYY)');
     let flagBirday = false;
     while (flagBirday === false) {
+        // let filter = /^([0-3]{1}+[0-9]{1})+/([0-1]{1}+[0-9]{1})+;
         let filter = /^[\d]{2}\/[\d]{2}\/[\d]{4}$/;
         if (!filter.test(birthdayCustomer)) {
             alert('Birthday is invalid! Please Try Again!');
